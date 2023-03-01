@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Anime Evolution | Contact us</title>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<section class="contactus-page">
+		<header class="contactus-header">
+			<div class="logo">
+				<a href="index.html">
+					<img src="images/anime_evolution_logo2.png">
+				</a>				
+			</div>
+
+			<div class="menu-icon" id="menu-icon" onclick="clickMenu()">
+				<img src="images/ham_icon.png">
+			</div>
+			<nav id="nav">
+				<ul class="menu-list" id="menu-list">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="anime.html">Anime</a></li>
+					<li><a href="contactus.html">Contact us</a></li>		
+				</ul>				
+			</nav>
+		</header>
+
+		<section class="contactus-content-container">
+			<div class="contactus-content">
+				<div class="contactus-me-info">
+					<h1 style="font-size: 1.3em;">CREATOR</h1>
+					<div class="contactus-photo">
+						<img src="me.jpg">
+					</div>			
+					<div class="me-info">
+						<h1>Abdullah Osmanov</h1>
+						<h1>FNo: 1801682017</h1>				
+						<h4>Tel: 0898572254</h4>
+					</div>
+				</div>
+
+				<div class="contactus-text">
+					<h1 style="font-size: 1.5em ">Software Techonolgy and Design</h1>
+					<h1>Introduction to Web Design and Web Programming</h1>
+					<div>			
+					<p>Web design is a Web development process for creating a website that focuses on aesthetic factors like layout, user interface and other visual imagery in order to make the website more visually appealing and easy to use. Web design makes use of various programs and tools in order to achieve the intended look, such as Dreamweaver, Photoshop and many others. In order to create a winning design, Web designers need to think about their audience, the purpose of the website and the visual appeal of the design.</p>
+					<p>Most websites are created by using a coded language called Hypertext Markup Language (HTML). In order for a website to be successfully displayed on the client browser, it needs to follow the rules of this language. HTML tags identify the website’s content for every page. Cascading Style Sheets (CSS) is then used to define the overall visual appearance of each page. The result is based on the combination of these elements. Hand coding can be taxing for some designers so some opt to use programs like Adobe Dreamweaver.</p>
+				</div>
+					
+				</div>
+
+				<div class="contactus-register">
+					<h1>Register</h1>
+					<p>For more Features</p>	
+					<form id="reg-form" action="index.html" method="post" onsubmit="return validateForm()">
+
+						
+						<label for="first-name">First Name*</label>
+						<input type="text" name="First Name" id="first-name" placeholder="First Name" onfocusout="validateFirstName()">
+						<span class="help">.</span>
+						
+						<label for="last-name">Last Name*</label>
+						<input type="text" name="Last Name" id="last-name" placeholder="Last Name" onfocusout="validateLastName()">
+						<span class="help">.</span>
+																
+						<label for="email">E-mail*</label>
+						<input type="email" name="E-mail" id="email" placeholder="@gmail.com" onfocusout="validateEmail()">
+						<span class="help">.</span>
+
+						<label for="psd">Password*</label>
+						<input type="password" name="Password" id="psd" placeholder="Password" onfocusout="validatePassword()">
+						<span class="help">.</span>
+
+						<label for="psd2">Confirm password*</label>
+						<input type="password" name="Confirm Password" id="psd2" placeholder="Confirm Pssword" onfocusout="validateConfirmPassword()">
+						<span class="help">.</span>
+
+						<label for="birthday">Birthday*</label>
+						<div class="birth">		
+							<div class="day-container">								
+							<select name="Day" id="day" onfocusout="validateDay()">
+								<option value="day">Day</option>
+								<option value="day1">01</option>
+								<option value="day2">02</option>
+								<option value="day3">03</option>
+								<option value="day4">04</option>
+								<option value="day5">05</option>
+								<option value="day6">06</option>
+								<option value="day7">07</option>
+								<option value="day8">08</option>
+								<option value="day9">09</option>
+								<option value="day10">10</option>
+								<option value="day11">11</option>
+								<option value="day12">12</option>
+								<option value="day13">13</option>
+								<option value="day14">14</option>
+								<option value="day15">15</option>
+								<option value="day16">16</option>
+								<option value="day17">17</option>
+								<option value="day18">18</option>
+								<option value="day19">19</option>
+								<option value="day20">20</option>
+								<option value="day21">21</option>
+								<option value="day22">22</option>
+								<option value="day23">23</option>
+								<option value="day24">24</option>
+								<option value="day25">25</option>
+								<option value="day26">26</option>
+								<option value="day27">27</option>
+								<option value="day28">28</option>
+								<option value="day29">29</option>
+								<option value="day30">30</option>
+								<option value="day31">31</option>
+							</select>
+							</div>
+							
+							<div class="month-container">
+								<select name="Month" id="month" onfocusout="validateMonth()">
+									<option value="month" hidden>Month</option>
+									<option value="month1">January</option>
+									<option value="month2">February</option>
+									<option value="month3">March</option>
+									<option value="month4">April</option>
+									<option value="month5">May</option>
+									<option value="month6">June</option>
+									<option value="month7">July</option>
+									<option value="month8">August</option>
+									<option value="month9">September</option>
+									<option value="month10">October</option>
+									<option value="month11">November</option>
+									<option value="month12">December</option>
+								</select>					
+							</div>	
+							
+							<div class="year-container">
+								<select name="Year" id="year" onfocusout="validateYear()">
+									<option value="year" hidden>Year</option>
+									<option value="year1">2019</option>
+									<option value="year2">2018</option>
+									<option value="year3">2017</option>
+									<option value="year4">2016</option>
+									<option value="year5">2015</option>
+									<option value="year6">2014</option>
+									<option value="year7">2013</option>
+									<option value="year8">2012</option>
+									<option value="year9">2011</option>
+									<option value="year10">2000</option>
+									<option value="year11">1999</option>
+									<option value="year12">1998</option>
+									<option value="year13">1997</option>
+									<option value="year14">1996</option>
+									<option value="year15">1995</option>
+									<option value="year16">1994</option>
+									<option value="year17">1993</option>
+									<option value="year18">1992</option>
+									<option value="year19">1991</option>
+									<option value="year20">1990</option>
+									<option value="year21">1989</option>
+								</select>
+							</div>	
+
+						</div>
+						<span id="help-date">.</span>
+
+						<label for="gender">Gender*</label>
+
+						<div class="gender">
+							<div class="gender-male">
+								<input class="rb-input" type="radio" id="radio1" name="radios" onfocusout="checkGender()">
+					       		<label class="rb-label" for="radio1">Male</label>
+							</div>
+
+							<div class="gender-female">
+								<input class="rb-input" type="radio" id="radio2" name="radios" onfocusout="checkGender()">
+					       		<label class="rb-label" for="radio2">Female</label>
+							</div>
+
+							<div class="gender-other">
+								 <input class="rb-input" type="radio" id="radio3" name="radios" onfocusout="checkGender()">
+					       		<label class="rb-label" for="radio3">Other</label>
+							</div>					
+						</div>
+						
+						<div>
+					       	<span id="help-gender">.</span>
+					    </div>
+
+						<label for="secret-text">Secret phrase or sentence</label>
+						<textarea id="secret-text" placeholder="Write your secret-text that can help you recover your password!"></textarea>
+
+						<input class="chb-input" type="checkbox" id="checkbox1" name="checkbox" onclick="checkRobot()">
+					       <label class="chb-label" for="checkbox1">Prove that you are not a robot*</label>
+
+					    <button class="reg-button" type="submit" name="Submit">Register</button>   
+					</form>
+				</div>
+			</div>
+			
+
+		</section>
+
+		<footer class="contactus-footer">
+				<div class="footer-nav">
+					<ul>
+						<a href="index.html"><li>Home</li></a>
+						<a href="anime.html"><li>Anime</li></a>
+						<a href="contactus.html"><li>Contact us</li></a>
+					</ul>
+
+					<ul>
+						<a href="https://www.facebook.com/VanAnimeEvolution/"><li><img class="fb_icon" src="images/fb_icon.png"></li></a>
+						<a href="https://twitter.com/animeevolution?lang=en"><li><img class="tw_icon" src="images/tw_icon.png"></li></a>
+					</ul>
+				</div>
+				<div class="footer-logo">
+					<a href="index.html">
+						<img src="images/anime_evolution_logo.png" width="300px;">
+					</a>
+				</div>
+				<div class="footer-copyright">
+					<div>&copy; 2019 AnimeEvolution</div>
+				</div>
+			</footer>
+	</section>
+
+	<script src="js/validation.js"></script>
+	<script src="js/click-menu.js"></script>
+</body>
+</html>
