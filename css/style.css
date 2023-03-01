@@ -1078,6 +1078,13 @@ textarea {
 }
 
 @media only screen and (max-width: 1000px) {
+  .video-container .sound-toggle {
+    font-size: 1em;
+  }
+  .video-container .sound-toggle-2 {
+    bottom: 10px;
+  }
+
   .anime-content-container {
     grid-template-columns: repeat(2, 1fr); /* or 20% 50% 30% ....*/
   }
@@ -1123,6 +1130,13 @@ textarea {
 }
 
 @media only screen and (max-width: 850px) {
+  .video-container .sound-toggle {
+    bottom: 50px;
+  }
+  .video-container .sound-toggle-2 {
+    bottom: 10px;
+  }
+
   .a-title {
     font-size: 0.8em;
   }
@@ -1329,6 +1343,10 @@ textarea {
 }
 
 @media only screen and (max-width: 500px) {
+  .video-container .sound-toggle {
+    font-size: 0.8em;
+  }
+
   .anime-content-container {
     grid-template-columns: repeat(1, 1fr); /* or 20% 50% 30% ....*/
   }
@@ -1410,6 +1428,16 @@ textarea {
 }
 
 @media only screen and (max-width: 400px) {
+  .video-container .sound-toggle {
+    font-size: 0.7em;
+    bottom: 30px;
+    left: 20px;
+  }
+  .video-container .sound-toggle-2 {
+    bottom: 10px;
+    left: 10px;
+  }
+
   .news-container {
     padding-bottom: 0;
   }
